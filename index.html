@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Memory Game</title>
+    <script src="https://kit.fontawesome.com/f05f45c737.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="menu-display">
+    <div class="background-overlay"></div>
+
+    <main class="menu-main">
+      <header id="main-menu-header"><h1>memory</h1></header>
+      <section id="main-menu-options-section">
+        <label for="theme-buttons">Select Theme</label>
+        <div id="theme-buttons">
+          <button class="option-button theme-button selected" id="theme-numbers-button">Numbers</button>
+          <button class="option-button theme-button" id="theme-icons-button">Icons</button>
+        </div>
+        <label for="player-number-buttons">Number of Players</label>
+        <div id="player-number-buttons">
+          <button class="option-button player-num-button selected" id="players-num-1-button">1</button>
+          <button class="option-button player-num-button" id="players-num-2-button">2</button>
+          <button class="option-button player-num-button" id="players-num-3-button">3</button>
+          <button class="option-button player-num-button" id="players-num-4-button">4</button>
+        </div>
+        <label for="grid-size-buttons">Grid Size</label>
+        <div id="grid-size-buttons">
+          <button class="option-button grid-size-button selected" id="grid-size-44-button">4x4</button>
+          <button class="option-button grid-size-button" id="grid-size-66-button">6x6</button>
+        </div>
+        <button class="option-button" id="start-game-button">Start Game</button>
+      </section>
+    </main>
+
+    <div class="confirmation-screen result-section">
+      <h2 id="confirmation-detail">placeholder</h2>
+      <div id="confirmation-buttons">
+        <button id="confirm-btn" class="option-button">Yes</button>
+        <button id="decline-btn" class="option-button">No</button>
+      </div>
+    </div>
+
+    <main class="game-screen-main">
+      <header id="game-screen-header">
+        <h1>memory</h1>
+        <button class="mobile-menu-button active option-button">Menu</button>
+        <div class="game-menu-buttons">
+          <button class="option-button header-option-button">Restart</button>
+          <button class="option-button header-option-button">New Game</button>
+          <button id="cancel-button"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </header>
+
+      <section id="memory-buttons-section"></section>
+
+      <footer id="single-player-footer">
+        <div class="single-player-stats">
+          <label for="single-timer">Time</label>
+          <div id="single-timer">00:00</div>
+        </div>
+        <div class="single-player-stats">
+          <label for="moves-count">Moves</label>
+          <span id="moves-count">0</span>
+        </div>
+      </footer>
+
+      <footer id="multi-player-footer">
+        <div class="player-box active" style="display: none">
+          <h3 class="text-mobile">P1</h3>
+          <h3 class="text-desktop">Player 1</h3>
+          <span class="pair-count">0</span>
+          <p id="cur-turn-txt">CURRENT TURN</p>
+          <p id="multi-timer"><span class="player-time active">0/5</span> <span class="turn-lost-text">Turn lost!</span></p>
+        </div>
+        <div class="player-box" style="display: none">
+          <h3 class="text-mobile">P2</h3>
+          <h3 class="text-desktop">Player 2</h3>
+          <span class="pair-count">0</span>
+        </div>
+        <div class="player-box" style="display: none">
+          <h3 class="text-mobile">P3</h3>
+          <h3 class="text-desktop">Player 3</h3>
+          <span class="pair-count">0</span>
+        </div>
+        <div class="player-box" style="display: none">
+          <h3 class="text-mobile">P4</h3>
+          <h3 class="text-desktop">Player 4</h3>
+          <span class="pair-count">0</span>
+        </div>
+      </footer>
+    </main>
+
+    <section id="single-player-result-section" class="result-section">
+      <div class="result-text">
+        <h1>You did it!</h1>
+        <p>Game over! Here's how you got on...</p>
+      </div>
+      <div class="single-result-box">
+        <p>Time Elapsed</p>
+        <h2 id="time-result">placeholder</h2>
+      </div>
+      <div class="single-result-box">
+        <p>Moves Taken</p>
+        <h2 id="moves-taken">placeholder</h2>
+      </div>
+      <div id="result-buttons">
+        <button class="result-option-button">Restart</button>
+        <button class="result-option-button">Setup New Game</button>
+      </div>
+    </section>
+
+    <section id="multi-player-result-section" class="result-section">
+      <div class="result-text">
+        <h1 id="multi-result-title">placeholder</h1>
+        <p>Game over! Here are the results...</p>
+      </div>
+      <div class="result-box" style="display: none">
+        <p>placeholder</p>
+        <h2>placeholder</h2>
+      </div>
+      <div class="result-box" style="display: none">
+        <p>placeholder</p>
+        <h2>placeholder</h2>
+      </div>
+      <div class="result-box" style="display: none">
+        <p>placeholder</p>
+        <h2>placeholder</h2>
+      </div>
+      <div class="result-box" style="display: none">
+        <p>placeholder</p>
+        <h2>placeholder</h2>
+      </div>
+      <div id="result-buttons">
+        <button class="result-option-button">Restart</button>
+        <button class="result-option-button">Setup New Game</button>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>

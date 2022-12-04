@@ -1,0 +1,102 @@
+[
+  {
+    "icon": "heart",
+    "class1": "fa-solid",
+    "class2": "fa-heart"
+  },
+  {
+    "icon": "hippo",
+    "class1": "fa-solid",
+    "class2": "fa-hippo"
+  },
+  {
+    "icon": "star",
+    "class1": "fa-solid",
+    "class2": "fa-star"
+  },
+  {
+    "icon": "house",
+    "class1": "fa-solid",
+    "class2": "fa-house"
+  },
+  {
+    "icon": "truck",
+    "class1": "fa-solid",
+    "class2": "fa-truck"
+  },
+  {
+    "icon": "city",
+    "class1": "fa-solid",
+    "class2": "fa-city"
+  },
+  {
+    "icon": "bicycle",
+    "class1": "fa-solid",
+    "class2": "fa-bicycle"
+  },
+  {
+    "icon": "tree",
+    "class1": "fa-solid",
+    "class2": "fa-tree"
+  },
+  {
+    "icon": "gamepad",
+    "class1": "fa-solid",
+    "class2": "fa-gamepad"
+  },
+  {
+    "icon": "sun",
+    "class1": "fa-solid",
+    "class2": "fa-sun"
+  },
+  {
+    "icon": "shield",
+    "class1": "fa-solid",
+    "class2": "fa-shield"
+  },
+  {
+    "icon": "keyboard",
+    "class1": "fa-solid",
+    "class2": "fa-keyboard"
+  },
+  {
+    "icon": "spider",
+    "class1": "fa-solid",
+    "class2": "fa-spider"
+  },
+  {
+    "icon": "skull",
+    "class1": "fa-solid",
+    "class2": "fa-skull"
+  },
+  {
+    "icon": "paw",
+    "class1": "fa-solid",
+    "class2": "fa-paw"
+  },
+  {
+    "icon": "meteor",
+    "class1": "fa-solid",
+    "class2": "fa-meteor"
+  },
+  {
+    "icon": "jet-fighter",
+    "class1": "fa-solid",
+    "class2": "fa-jet-fighter"
+  },
+  {
+    "icon": "jedi",
+    "class1": "fa-solid",
+    "class2": "fa-jedi"
+  },
+  {
+    "icon": "horse-head",
+    "class1": "fa-solid",
+    "class2": "fa-horse-head"
+  },
+  {
+    "icon": "guitar",
+    "class1": "fa-solid",
+    "class2": "fa-guitar"
+  }
+]
